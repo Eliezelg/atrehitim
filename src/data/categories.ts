@@ -43,6 +43,7 @@ export const categories = [
     subcategories: [
       { name: 'ספות אירוח', slug: 'guest-sofas' },
       { name: 'מערכות ישיבה', slug: 'seating-systems' },
+      { name: 'כורסאות', slug: 'single-seat' },
       { name: 'ריהוט לטלויזיה', slug: 'tv-furniture' },
       { name: 'שידה לסלון', slug: 'living-room-dresser' },
       { name: 'שולחן סלוני', slug: 'coffee-table' }

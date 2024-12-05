@@ -15,8 +15,8 @@ export async function sendContactEmail(data: {
   sgMail.setApiKey(import.meta.env.SENDGRID_API_KEY);
 
   const msg = {
-    to: 'your-email@example.com', // Replace with your email
-    from: 'noreply@yourfurniture.com', // Replace with your verified sender
+    to: 'info@atrehitim.co.il', // Replace with your email
+    from: 'noreply@atrehitim.co.il', // Replace with your verified sender
     subject: `New Contact Form Submission${data.productName ? ` - ${data.productName}` : ''}`,
     text: `
       Name: ${data.name}
