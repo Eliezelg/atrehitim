@@ -11,7 +11,7 @@ export const SITE_CONFIG = {
 
 export const CONTACT_CONFIG = {
   emailService: {
-    sender: 'noreply@atrehitim.co.il',
+    sender: 'info@atrehitim.co.il',
     recipient: 'info@atrehitim.co.il'
   }
 };

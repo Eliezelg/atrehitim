@@ -20,6 +20,7 @@ export default defineConfig({
     })
   ],
   transitions: true,
+  output: 'server',
   vite: {
     plugins: [],
     resolve: {
@@ -31,11 +32,12 @@ export default defineConfig({
       include: ['react', 'react-dom', 'lucide-react', 'recharts']
     },
   },
-  site: 'https://votre-site.com',
+  site: 'https://www.atrehitim.co.il',
   image: {
     remotePatterns: [{ protocol: "https" }],
     service: {
       entrypoint: 'astro/assets/services/sharp'
     }
   }
+
 });

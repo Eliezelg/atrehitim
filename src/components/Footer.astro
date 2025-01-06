@@ -10,6 +10,7 @@ const currentYear = new Date().getFullYear();
         <ul class="space-y-2">
           <li>טלפון: 053-3934-699</li>
           <li>אימייל: info@atrehitim.co.il</li>
+          <li><a href="/contact" class="hover:text-accent-500">דף יצירת קשר</a></li>
         </ul>
       </div>
       <div>
@@ -25,11 +26,18 @@ const currentYear = new Date().getFullYear();
         <ul class="space-y-2">
           <li><a href="/about" class="hover:text-accent-500">אודות</a></li>
           <li><a href="/terms" class="hover:text-accent-500">תנאי שימוש</a></li>
+          <li><a href="/shipping" class="hover:text-accent-500">משלוחים</a></li>
         </ul>
       </div>
     </div>
     <div class="text-center mt-8 pt-8 border-t border-primary-700">
-      <p>© {currentYear} כל הזכויות שמורות</p>
+      <p> {currentYear} כל הזכויות שמורות</p>
+      <div class="mt-4 flex items-center justify-center gap-2 text-sm">
+        <span>אתר נוצר על ידי</span>
+        <a href="https://webpro450.co.il" target="_blank" rel="noopener noreferrer" class="hover:opacity-80">
+          <img src="/images/webpro-logo.jpg" alt="WebPro Logo" class="h-6" />
+        </a>
+      </div>
     </div>
   </div>
 </footer>

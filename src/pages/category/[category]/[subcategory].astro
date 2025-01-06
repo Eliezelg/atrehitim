@@ -3,6 +3,7 @@ import Layout from '../../../layouts/Layout.astro';
 import PhotoGallery from '../../../components/gallery/PhotoGallery.astro';
 import Breadcrumbs from '../../../components/Breadcrumbs.astro';
 
+export const prerender = true;
 export function getStaticPaths() {
   return [
     // Closets
