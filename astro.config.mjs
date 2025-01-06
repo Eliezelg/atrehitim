@@ -2,6 +2,7 @@ import { defineConfig } from 'astro/config';
 import tailwind from '@astrojs/tailwind';
 import astroI18next from "astro-i18next";
 import react from '@astrojs/react';
+import node from '@astrojs/node'; // Ajoutez cette ligne
 
 export default defineConfig({
   integrations: [
@@ -19,8 +20,8 @@ export default defineConfig({
       }
     })
   ],
-  transitions: true,
   output: 'server',
+  adapter: node(), // Ajoutez cette ligne
   vite: {
     plugins: [],
     resolve: {
