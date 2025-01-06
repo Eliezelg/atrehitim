@@ -21,7 +21,9 @@ export default defineConfig({
     })
   ],
   output: 'server',
-  adapter: node(), // Ajoutez cette ligne
+  adapter: node({
+    mode: 'standalone'
+  }),
   vite: {
     plugins: [],
     resolve: {
